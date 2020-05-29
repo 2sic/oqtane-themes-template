@@ -6,15 +6,16 @@
     <Version>1.0.0</Version>
     <Authors>Daniel Mettler (iJungleboy)</Authors>
     <Company>2sic internet Solutions</Company>
-    <Description>Templat for Oqtane Theme</Description>
-    <Product>ToSic.Oqtane.Theme.Template</Product>
+    <Description>Template for Oqtane Theme</Description>
+    <Product>Example.Oqtane.Themes.Template</Product>
     <Copyright>MIT</Copyright>
-    <AssemblyName>Example.Oqt.Themes.Template</AssemblyName>
+    <AssemblyName>Example.Oqtane.Themes.Template</AssemblyName>
     <RootNamespace>Example.Oqt.Themes.Template</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="dist\Theme.css" />
+    <Content Include="dist\theme.css" />
   </ItemGroup>
   
   <ItemGroup>
@@ -30,13 +31,9 @@
     <PackageReference Include="Oqtane.Shared" Version="1.0.0" />
   </ItemGroup>
   
-  <ItemGroup>
-    <Folder Include="wwwroot\Themes\ToSic.Oqtane.Themes.Template\" />
-  </ItemGroup>
-  
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="IF $(ConfigurationName) == Debug (build-helpers\debug.cmd)" />
-    <Exec Command="IF $(ConfigurationName) == Release (release.cmd)" />
+    <Exec Command="IF $(ConfigurationName) == Release (build-helpers\release.cmd)" />
   </Target>
 
 </Project>
