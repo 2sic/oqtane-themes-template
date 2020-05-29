@@ -2,7 +2,7 @@
 :: Just make your changes below to reconfigure how things are built
 
 :: The root target path - adjust to your testing- & dev-environment
-set targetroot=..\oqtane.framework
+set targetroot=..\..\oqtane.framework
 set themename=Example.Oqt.Themes.Template
 
 :: Important, the dll name must contain the full word Oqtane as of now - WIP, see https://azing.org/oqtane/r/KXsLEVkZ

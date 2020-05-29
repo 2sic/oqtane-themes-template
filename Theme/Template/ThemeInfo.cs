@@ -9,5 +9,10 @@ namespace Example.Oqt.Themes.Template
             Name = "Example Oqtane Theme - Template",
             Version = "0.0.1"
         };
+
+        public void test()
+        {
+            var x = new NoTitle();
+        }
     }
 }

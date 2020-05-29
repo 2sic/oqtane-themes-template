@@ -10,7 +10,7 @@
     <Product>Example.Oqtane.Themes.Template</Product>
     <Copyright>MIT</Copyright>
     <AssemblyName>Example.Oqtane.Themes.Template</AssemblyName>
-    <RootNamespace>Example.Oqt</RootNamespace>
+    <RootNamespace>Example.Oqt.Themes</RootNamespace>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
