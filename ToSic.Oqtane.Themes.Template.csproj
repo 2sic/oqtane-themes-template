@@ -1,42 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
-
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <RazorLangVersion>3.0</RazorLangVersion>
-    <Version>1.0.0</Version>
-    <Authors>Daniel Mettler (iJungleboy)</Authors>
-    <Company>2sic internet Solutions</Company>
-    <Description>Templat for Oqtane Theme</Description>
-    <Product>ToSic.Oqtane.Theme.Template</Product>
-    <Copyright>MIT</Copyright>
-    <AssemblyName>ToSic.Oqtane.Themes.Template</AssemblyName>
-    <RootNamespace>ToSic.Oqt.Theme.Template</RootNamespace>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <Content Include="dist\Theme.css" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="3.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Build" Version="3.2.0" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="3.2.0" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="3.1.4" />
-    <PackageReference Include="System.Net.Http.Json" Version="3.2.0" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <PackageReference Include="Oqtane.Client" Version="1.0.0" />
-    <PackageReference Include="Oqtane.Shared" Version="1.0.0" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <Folder Include="wwwroot\Themes\ToSic.Oqtane.Themes.Template\" />
-  </ItemGroup>
-  
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="IF $(ConfigurationName) == Debug (debug.cmd)" />
-    <Exec Command="IF $(ConfigurationName) == Release (release.cmd)" />
-  </Target>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
 </Project>
