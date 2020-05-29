@@ -4,5 +4,5 @@
 call build-helpers\config.cmd
 
 :: Build the Nuget Package
-"%targetroot%\oqtane.package\nuget.exe" pack %nugetfile% 
-XCOPY "*.nupkg" "%targetpath%\wwwroot\Themes\" /Y
+"%targetroot%\oqtane.package\nuget.exe" pack "package\%nugetfile%" -OutputDirectory "package"
+XCOPY "package\*.nupkg" "%targetpath%\wwwroot\Themes\" /Y

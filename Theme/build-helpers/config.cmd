@@ -9,7 +9,7 @@ set themename=Example.Oqt.Themes.Template
 set dllname=Example.Oqtane.Themes.Template
 
 :: Nuspec file, for release cycle
-set nugetfile=Example.Oqt.Themes.Template.nuspec
+set nugetfile=%dllname%.nuspec
 
 :: Auto-calculated values (derived from the settings above)
 set targetpath=%targetroot%\Oqtane.Server

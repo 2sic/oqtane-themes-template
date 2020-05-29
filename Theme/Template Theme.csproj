@@ -5,12 +5,12 @@
     <RazorLangVersion>3.0</RazorLangVersion>
     <Version>1.0.0</Version>
     <Authors>Daniel Mettler (iJungleboy)</Authors>
-    <Company>2sic internet Solutions</Company>
+    <Company>.net Foundation / 2sic</Company>
     <Description>Template for Oqtane Theme</Description>
     <Product>Example.Oqtane.Themes.Template</Product>
     <Copyright>MIT</Copyright>
     <AssemblyName>Example.Oqtane.Themes.Template</AssemblyName>
-    <RootNamespace>Example.Oqt.Themes</RootNamespace>
+    <RootNamespace>Example.Oqt.Themes.Template</RootNamespace>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 

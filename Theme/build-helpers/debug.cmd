@@ -8,7 +8,7 @@ call build-helpers\config.cmd
 
 :: These are calculated automatically based on your targetpath
 set targetpathdll=%targetpath%\bin\Debug\netcoreapp3.1\
-set targetpathassets=%targetpath%\wwwroot\Themes\%themename%\
+set targetpathassets=%targetpath%\wwwroot\Themes\%themename%\dist\
 
 :: Copy the DLLs to your dev/testing environment
 XCOPY "bin\Debug\netstandard2.1\%dllname%.dll" "%targetpathdll%" /Y

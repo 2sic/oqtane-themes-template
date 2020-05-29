@@ -6,13 +6,8 @@ namespace Example.Oqt.Themes.Template
     {
         public Oqtane.Models.Theme Theme => new Oqtane.Models.Theme
         {
-            Name = "Example Oqtane Theme - Template",
+            Name = "Example - Template",
             Version = "0.0.1"
         };
-
-        public void test()
-        {
-            var x = new NoTitle();
-        }
     }
 }
