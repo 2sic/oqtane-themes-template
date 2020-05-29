@@ -1,0 +1,9 @@
+﻿@namespace ToSic.Oqt.Theme.Template
+@inherits Oqtane.Themes.ContainerBase
+<div class="container">
+    @if (PageState.EditMode)
+    {
+        <ModuleActions />
+    }
+    <ModuleInstance />
+</div>
