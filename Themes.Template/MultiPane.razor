@@ -1,4 +1,4 @@
-﻿@namespace Example.Oqt.Themes.Template
+﻿@using Microsoft.Extensions.FileSystemGlobbing.Internal
 @inherits Oqtane.Themes.LayoutBase
 
 <div class="row px-4">
@@ -15,4 +15,9 @@
 
 @code {
     public override string Panes => "Top;Left;Content;Right;Bottom";
+
+    //public void test()
+    //{
+    //    var x = Example.Oqt.Themes.Template.NoTitle
+    //}
 }
