@@ -29,9 +29,11 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="webpack.config.js" />
     <None Include="index.ts" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="theme.css" />
     <Content Include="tsconfig.json" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
