@@ -17,12 +17,9 @@ namespace Example.Oqt.Themes.Template
         public override List<Resource> Resources => new List<Resource>
         {
             // JavaScript Resources
-            new Resource { ResourceType = ResourceType.Script, Url = ThemePath() + "dist/index.js" },
+            new Resource { ResourceType = ResourceType.Script, Url = ThemePath() + "dist/theme.js" },
 
-            // CSS resources
-            new Resource { ResourceType = ResourceType.Stylesheet, Url = "https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/cerulean/bootstrap.min.css",
-                // , Integrity = "sha384-l7xaoY0cJM4h9xh1RfazbgJVUZvdtyLWPueWNtLAphf/UbBgOVzqbOTogxPwYLHM", 
-                CrossOrigin = "anonymous" },
+            // CSS resources - includes the entire Flatly theme https://bootswatch.com/flatly/
             new Resource { ResourceType = ResourceType.Stylesheet, Url = ThemePath() + "dist/theme.css" }
         };
     }

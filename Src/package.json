@@ -2,14 +2,21 @@
   "name": "oqtane-theme-template",
   "version": "0.0.1",
   "description": "This folder contains the theme project of this solution. These are the parts ATM",
-  "main": "index.ts",
+  "main": "theme.ts",
   "scripts": {
-    "build": "tsc --build",
-    "clean": "tsc --build --clean"
+    "build": "npm run typescript && npm run sass",
+    "typescript": "tsc --build",
+    "clean": "tsc --build --clean",
+    "sass": "node-sass theme.scss -o ../Theme/dist --output-style compressed --source-map true"
   },
   "author": "iJungleboy",
   "license": "MIT",
   "devDependencies": {
+    "node-sass": "^4.14.1",
     "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootswatch": "^4.5.0"
   }
 }
