@@ -1,0 +1,15 @@
+{
+  "name": "oqtane-theme-template",
+  "version": "0.0.1",
+  "description": "This folder contains the theme project of this solution. These are the parts ATM",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "author": "iJungleboy",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}

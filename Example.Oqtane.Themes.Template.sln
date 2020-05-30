@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template Theme", "Theme\Template Theme.csproj", "{F4A23ABD-6DAB-4329-91DA-9F445B343E6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme", "Theme\Theme.csproj", "{F4A23ABD-6DAB-4329-91DA-9F445B343E6B}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Theme Src", "Src\Theme Src.njsproj", "{8B5270BC-33C6-41AC-91C9-91073E0BB965}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F4A23ABD-6DAB-4329-91DA-9F445B343E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4A23ABD-6DAB-4329-91DA-9F445B343E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4A23ABD-6DAB-4329-91DA-9F445B343E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5270BC-33C6-41AC-91C9-91073E0BB965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5270BC-33C6-41AC-91C9-91073E0BB965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5270BC-33C6-41AC-91C9-91073E0BB965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5270BC-33C6-41AC-91C9-91073E0BB965}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

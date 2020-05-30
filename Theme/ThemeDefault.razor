@@ -21,6 +21,10 @@
 
     public override List<Resource> Resources => new List<Resource>()
     {
+        // JavaScript Resources
+        new Resource { ResourceType = ResourceType.Script, Url = ThemePath() + "dist/index.js" },
+
+        // CSS resources
         new Resource { ResourceType = ResourceType.Stylesheet, Url = "https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/cerulean/bootstrap.min.css",
             // , Integrity = "sha384-l7xaoY0cJM4h9xh1RfazbgJVUZvdtyLWPueWNtLAphf/UbBgOVzqbOTogxPwYLHM", 
             CrossOrigin = "anonymous" },
