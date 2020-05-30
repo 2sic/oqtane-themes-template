@@ -43,3 +43,10 @@ This is a standard Visual Studio Solution with 2 Project
 
 1. [Installation](https://azing.org/oqtane/r/J8S3eDdR)
 1. [Adjust Company and Theme names & Descriptions](https://azing.org/oqtane/r/IjQ147Ef)
+
+
+## Known Issues
+
+1. Oqtane still loads it's own copy of bootstrap - which is really not good. This is an [ongoing discussion as of 2020-05-30](https://github.com/oqtane/oqtane.framework/issues/566)
+1. This contains very simple Typescript, for real-world use you probably need Webpack. I'll create a more advanced example soon.
+1. Dito for SASS / Bootstrap - this is still a bit too simple, more advanced setup will follow

@@ -1,6 +1,18 @@
 // This is the starting point for scripts of this theme
 // As of now, it just imports a dummy message
 
-// @import default from
+/**
+ * Demo class
+ */
+class Example {
 
-console.log('Hello from the Template Oqtane Theme');
+  hello(name: string): void {
+    console.log(`Hello from ${name}`);
+  } 
+}
+
+// Create an instance, run the code
+const ex = new Example();
+ex.hello("Template Oqtane Theme");
+
+
