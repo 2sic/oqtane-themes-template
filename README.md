@@ -17,6 +17,12 @@ This is a template theme for [Oqtane](https://www.oqtane.org/). The idea is that
 1. Checklists for all modifications you need
 
 
+## What is still WIP
+
+1. package.json and bootstrap 4 SASS automation
+1. Typescripts / JavaScripts to include
+
+
 ## Instructions / Checklists
 
 1. [Installation](https://azing.org/oqtane/r/J8S3eDdR)
