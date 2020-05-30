@@ -7,20 +7,36 @@ This is a template theme for [Oqtane](https://www.oqtane.org/). The idea is that
 1. And then you can start customizing as you want to 
 
 
-## What's included / What features does this have?
+## What's included
 
-1. A Standard Visual Studio Solution with 1 Project containing the Theme
-1. The Theme is named `Template` from company `Example` making it easy to replace text fragments
-1. 1 Theme, 2 Layouts and 2 Containers
-1. Minimal code/namespaces, so renaming the folder will automatically rename the namespace of your theme
-1. It builds into a DLL and has various automations to auto-push to your Dev-Oqtane environment incl. assets in a `dist` folder
+This is a standard Visual Studio Solution with 2 Project 
+
+1. Theme containing the Theme itself
+1. Src contains Typescript and SASS sources
+1. Readme files guide you through the structure
+1. checklists help you get started
+
+## Theme Parts and Features
+
+1. Parts
+    1. 1 Theme with Code-Behind
+    1. 2 Layouts: Single-Pane and Multi-Pane
+    1. 2 Containers: Default and No-Title
+1. Prepared for easy on-boarding to your company and theme-name
+    1. The Theme is named `Template` from company `Example` making it easy to replace text fragments
+    1. Minimal code/namespaces, so renaming the folder will automatically rename the namespace of your theme
+1. Build Optimizations
+    1. It builds into a DLL and has various automations to auto-push to your Dev-Oqtane environment incl. assets in a `dist` folder
+    1. It also generates a nuget package for distribution (but not tested yet)
 1. Checklists for all modifications you need
 
 
-## What is still WIP
+## Src / Dist Parts and Features
 
-1. package.json and bootstrap 4 SASS automation
-1. Typescripts / JavaScripts to include
+1. Contains standard `package.json` for loading Typescript, Node-Sass etc.
+1. On build, compiles the `theme.ts` to the correct `dist` folder
+1. On build, compiles Bootstrap, [Bootswatch Flatly](https://bootswatch.com/flatly/) and custom css into one `theme.css` in the correct `dist` folder
+1. TypeScript and SASS generate and include SourceMaps for debugging
 
 
 ## Instructions / Checklists
