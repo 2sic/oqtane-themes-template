@@ -2,10 +2,13 @@
 
 <main role="main">
     <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
-        2sic!
         <Logo /><Menu Orientation="Horizontal" />
         <div class="controls ml-md-auto">
-            <div class="controls-group"><UserProfile /> <Login /> <ControlPanel /></div>
+            <div class="controls-group">
+                <UserProfile />
+                <Login />
+                <ControlPanel />
+            </div>
         </div>
     </nav>
     <div class="content container">
@@ -18,17 +21,4 @@
 
 @code {
     public override string Panes => string.Empty;
-
-    public override List<Resource> Resources => new List<Resource>()
-    {
-        // JavaScript Resources
-        new Resource { ResourceType = ResourceType.Script, Url = ThemePath() + "dist/index.js" },
-
-        // CSS resources
-        new Resource { ResourceType = ResourceType.Stylesheet, Url = "https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/cerulean/bootstrap.min.css",
-            // , Integrity = "sha384-l7xaoY0cJM4h9xh1RfazbgJVUZvdtyLWPueWNtLAphf/UbBgOVzqbOTogxPwYLHM", 
-            CrossOrigin = "anonymous" },
-        new Resource { ResourceType = ResourceType.Stylesheet, Url = ThemePath() + "dist/theme.css" }
-    };
-
 }
