@@ -1,6 +1,9 @@
 :: This is just a configuration file for the Batch-automation in this theme. 
 :: Just make your changes below to reconfigure how things are built
 
+:: Disable too much output
+@echo off
+
 :: The root target path - adjust to your testing- & dev-environment
 set targetroot=..\..\oqtane.framework
 set themename=Example.Oqt.Themes.Template

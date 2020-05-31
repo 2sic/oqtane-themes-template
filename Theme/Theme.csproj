@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <RazorLangVersion>3.0</RazorLangVersion>
-    <Version>1.0.0</Version>
+    <Version>0.0.2</Version>
     <Authors>Daniel Mettler (iJungleboy)</Authors>
     <Company>.net Foundation / 2sic</Company>
     <Description>Template for Oqtane Theme</Description>
@@ -12,6 +12,8 @@
     <AssemblyName>Example.Oqtane.Themes.Template</AssemblyName>
     <RootNamespace>Example.Oqt.Themes.Template</RootNamespace>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AssemblyVersion>0.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,8 +34,6 @@
   </ItemGroup>
   
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="IF $(ConfigurationName) == Debug (build-helpers\debug.cmd)" />
-    <Exec Command="IF $(ConfigurationName) == Release (build-helpers\release.cmd)" />
   </Target>
 
 </Project>

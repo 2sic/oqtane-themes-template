@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Example.Oqtane.Themes.Template</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <authors>ExampleAuthor</authors>
     <owners>ExampleOwner</owners>
     <title>ExampleCompany ExampleThemeName Theme for Oqtane</title>
@@ -21,7 +21,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\bin\Release\netstandard2.1\Example.Oqtane.Themes.Template.dll" target="lib\netstandard2.1" /> 
-    <file src="..\dist\**\*.*" target="wwwroot\themes\Example.Oqt.Themes.Template\dist" /> 
+    <file src="..\Theme\bin\Release\netstandard2.1\Example.Oqtane.Themes.Template.dll" target="lib\netstandard2.1" /> 
+    <file src="..\Theme\dist\**\*.*" target="wwwroot\themes\Example.Oqt.Themes.Template\dist" /> 
   </files>
 </package>

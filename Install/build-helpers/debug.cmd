@@ -11,11 +11,12 @@ set targetpathdll=%targetpath%\bin\Debug\netcoreapp3.1\
 set targetpathassets=%targetpath%\wwwroot\Themes\%themename%\dist\
 
 :: Copy the DLLs to your dev/testing environment
-XCOPY "bin\Debug\netstandard2.1\%dllname%.dll" "%targetpathdll%" /Y
-XCOPY "bin\Debug\netstandard2.1\%dllname%.pdb" "%targetpathdll%" /Y
+set source=..\Theme
+XCOPY "%source%\bin\Debug\netstandard2.1\%dllname%.dll" "%targetpathdll%" /Y
+XCOPY "%source%\bin\Debug\netstandard2.1\%dllname%.pdb" "%targetpathdll%" /Y
 
 :: Copy any assets from /dist/ to the target
-XCOPY "dist\*" "%targetpathassets%" /Y /S /I
+XCOPY "%source%\dist\*" "%targetpathassets%" /Y /S /I
 
 :: Inform we're done
 @echo ----- Done!
