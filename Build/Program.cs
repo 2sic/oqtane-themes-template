@@ -16,7 +16,7 @@ namespace Install
             System.IO.Directory.SetCurrentDirectory("../../../");
             Console.WriteLine("Executing path: " + Environment.CurrentDirectory);
 
-            Process.Start("build-helpers\\debug.cmd");
+            Process.Start("scripts\\debug.cmd");
 
             //var cmd = new Process();
             //cmd.StartInfo.FileName = ""

@@ -1,4 +1,4 @@
-<img src="assets/screenshot-home-v00.00.02.png" width="50%" align="right">
+<img src="assets/screenshot-home-v00.00.02.png" width="50%" align="right" border="1">
 
 # Template Theme for Oqtane
 
