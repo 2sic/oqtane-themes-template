@@ -11,9 +11,9 @@ This is a template theme for [Oqtane](https://www.oqtane.org/). The idea is that
 
 This is a standard Visual Studio Solution with 3 Projects
 
-1. **Theme** containing only the [Theme](tree/master/Theme) itself + js/css in a `dist` folder
-1. **Src** contains Typescript and SASS [sources](tree/master/Src) for the `dist` folder
-1. **Build** containing [build-automation](tree/master/Build) and package maker (for installation)
+1. **Theme** containing only the [Theme](Theme) itself + js/css in a `dist` folder
+1. **Src** contains Typescript and SASS [sources](Src) for the `dist` folder
+1. **Build** containing [build-automation](Build) and package maker (for installation)
 1. Readme files guide you through the structure
 1. checklists help you get started
 
