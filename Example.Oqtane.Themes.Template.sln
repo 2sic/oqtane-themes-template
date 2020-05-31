@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theme", "Theme\Theme.csproj
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Theme Src", "Src\Theme Src.njsproj", "{8B5270BC-33C6-41AC-91C9-91073E0BB965}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Develop and Install", "Install\Develop and Install.csproj", "{18134663-8783-42C6-B8CE-42C7CDCDE543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Develop and Install", "Build\Develop and Install.csproj", "{18134663-8783-42C6-B8CE-42C7CDCDE543}"
 	ProjectSection(ProjectDependencies) = postProject
 		{8B5270BC-33C6-41AC-91C9-91073E0BB965} = {8B5270BC-33C6-41AC-91C9-91073E0BB965}
 		{F4A23ABD-6DAB-4329-91DA-9F445B343E6B} = {F4A23ABD-6DAB-4329-91DA-9F445B343E6B}
