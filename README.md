@@ -69,5 +69,4 @@ You'll see a command-window pop up showing you what happens.
 1. Oqtane still loads it's own copy of bootstrap - which is really not good. This is an [ongoing discussion as of 2020-06](https://github.com/oqtane/oqtane.framework/issues/566)
 1. This template contains very simple Typescript, for real-world use you probably need Webpack. I'll create a more advanced example soon.
 1. Dito for SASS / Bootstrap - this is still a bit too simple, more advanced setup will follow
-1. The build automation is currently batch `.cmd` based, I don't really like this, but it works
-1. For real-world work, you typically invest most time into css/js development, as the theme itself doesn't change much. For that, it would be better to have a code-watcher which pushes changes continously. 
+1. For real-world work, you typically invest most time into css/js development, as the theme itself doesn't change much. For that, it would be better to have a code-watcher which pushes changes continously. I'll work on that
