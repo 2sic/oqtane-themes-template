@@ -1,7 +1,7 @@
 :: Get the configuration variables
 :: Note that the call contains the folder "build-helpers"
 :: because the scripts are executed in the context of the root folder
-call build-helpers\config.cmd
+call scripts\config.cmd
 
 :: Just tell the output what's happening
 @echo ----- Will copy dlls to %targetpath% and assets to theme %themename% (automated in /build-helpers/debug.cmd)
